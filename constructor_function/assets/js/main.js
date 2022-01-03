@@ -9,7 +9,7 @@
     function Calculadora() {
         this.display = document.querySelector('.display');
 
-        this.inicia = () => {
+        this.start = () => {
             this.capturaClicks();
             this.capturaEnter();
         };
@@ -60,6 +60,6 @@
     }
 
     const calc = new Calculadora();
-    calc.inicia();
+    calc.start();
 
 })();
